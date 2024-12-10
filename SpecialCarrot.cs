@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class SpecialCarrot : MonoBehaviour
 {
-    public GameObject cuttedCarrot;
     public AudioClip collisionSound;
     public GameObject display;
 
@@ -13,13 +12,6 @@ public class SpecialCarrot : MonoBehaviour
         if (other.gameObject.tag == "knife")
         {
             UnityEngine.Debug.Log("Knife has touched carrot"); //um
-
-            // Check if cuttedCarrot is assigned to avoid null reference errors
-            if (cuttedCarrot != null)
-            {
-                // play chop sound
-                AudioSource.PlayClipAtPoint(collisionSound, transform.position, 1.0f);
-            }
 
             if (display != null)
             {

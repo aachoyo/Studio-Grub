@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class SpecialCarrot : MonoBehaviour
 {
-    public AudioClip collisionSound;
     public GameObject display;
-
+    
     // OnTriggerEnter is called when another collider makes contact with this object's collider (trigger).
     private void OnTriggerEnter(Collider other)
     {

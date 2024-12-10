@@ -20,15 +20,8 @@ public class CarrotCutting : MonoBehaviour
             // Check if cuttedCarrot is assigned to avoid null reference errors
             if (cuttedCarrot != null)
             {
-                // Set the position of the cuttedCarrot to be the same as this (carrot before cutting) gameObject's position
-                // cuttedCarrot.transform.position = this.transform.position;
-
                 // play chop sound
-                AudioSource.PlayClipAtPoint(collisionSound, transform.position, 1.0f);
-
-                // Activate the cuttedCarrot game object, making it visible in the game.
-                //cuttedCarrot.SetActive(true);
-
+                AudioSource.PlayClipAtPoint(collisionSound, transform.position, 1.0f)
             }
 
             // Deactivate this game object (the carrot before cutting) as the other appears

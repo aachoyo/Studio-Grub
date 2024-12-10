@@ -15,9 +15,6 @@ public class stoveOn : MonoBehaviour
         // Check if the cube is the colliding object w/ matchstick
         if (other.gameObject == cube)
         {
-            // Deactivate egg
-           // egg.SetActive(false);
-
             // Activate fire
             fire.SetActive(true);
 
@@ -25,7 +22,6 @@ public class stoveOn : MonoBehaviour
             {
                 displayButton.SetActive(true);
             }
-
         }
     }
 }

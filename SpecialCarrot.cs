@@ -10,7 +10,7 @@ public class SpecialCarrot : MonoBehaviour
         // Check if the colliding object has the tag "knife"
         if (other.gameObject.tag == "knife")
         {
-            UnityEngine.Debug.Log("Knife has touched carrot"); //um
+            UnityEngine.Debug.Log("Knife has touched carrot");
 
             if (display != null)
             {

@@ -1,3 +1,5 @@
+/* not used in final to optimize loading time*/
+
 using UnityEngine;
 
 public class openCabinet : MonoBehaviour

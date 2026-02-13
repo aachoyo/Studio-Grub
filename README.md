@@ -116,7 +116,7 @@ This project strengthened our skills in:
 
 ## Demo
 
-[Game Demo Presentation](https://docs.google.com/presentation/d/14LBRl2nSbJlES8DlXYsc3mfrCMoi-5-b/edit?usp=sharing&ouid=112315407368250283568&rtpof=true&sd=true)
+[Game Demo Presentation](https://www.canva.com/design/DAGYXeJ8YI0/o_dD9_hyV-jT4RGY_XrgLQ/edit?utm_content=DAGYXeJ8YI0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Future Improvements
 
